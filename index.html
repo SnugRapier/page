@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/resset.css">
+<link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body>
+    <!-- cabecera -->
+    <header>
+       <img src="./img/png-clipart-close-up-of-adult-fawn-pug-pug-face-animals-pugs-thumbnail.png" alt="pug">
+    </header>
+    <!-- Registro de datos -->
+    <main>
+          <form action="juego.html" id="formEntrada">
+            <div class="itemform">
+                <label for="name">Ingresa tu nombre de jugador </label>
+                <input type="text" name="nick" value="@" id="nick" readonly>
+                <input type="text" name="nick" id="Nick">
+            </div>
+            <div class="itemform">
+                <label for="name"> Ingresa tu correo electronico</label>
+                <input type="email" name="correo" value="ejemplo@correo.com" id="correo">   
+             </div> 
+            <div class="itemform">
+                <label for="name">Elije un tamaño del juego </label>
+                <select name="tamano" id="tamano">
+                   <option value="">   --Por Favor elije un tamaño--</option>
+                    <option value="1">4x4</option>  
+                    <option value="2">6x6</option>   
+                    <option value="3">8x8</option>                 
+                </select>
+            </div>
+            <div class="form">
+                 <input type="submit" value="Jugar" id="jugar">
+
+            </div>
+          </form>
+    </main>
+    <footer>
+            <p> Videojuego diseñado para el proyecto final de la Materia Programacion Web II </p>
+    </footer>
+
+    <script src="./js/app.js"> </script>
+</body>
+</html>

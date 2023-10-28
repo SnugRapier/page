@@ -1,0 +1,86 @@
+body{
+    background-color: #fcfcfc;
+    font-family: 'Nabla', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+header, footer{
+    text-align: center;
+    margin: 30px auto 0px auto;
+    width: 300px;
+}
+img{ float: inline-end;
+           width: 100px;
+           height: 100px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+main{
+     width: 300px;
+     margin: 30px auto 0px auto;
+     
+}
+form{
+     display: flex;
+     flex-direction: column;
+     row-gap: 20px;
+     font-size: 18px;
+}
+
+input[type="submit"]{
+
+     background-color: blueviolet;
+     color: #ffffff;
+     font-weight: 40px;
+     border-radius: 0px 5px 5px 0px;
+     width: 100%;
+}
+input[type="email"]{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    width: 280px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 200px;
+    font-size: 18px;
+
+
+}
+
+input{
+     display: inline;
+     font-family: 'Roboto', sans-serif;
+     color: #999999;
+     width: 238px;
+     border: 1px solid #ced4da;
+     padding: 10px;
+     border-radius: 0px 5px 5px 0px;
+     font-weight: 200px;
+     font-size: 18px;
+}
+select{
+    display: inline;
+     font-family: 'Roboto', sans-serif;
+     width: 300px;
+     color: #999999;
+     border: 1px solid #ced4da;
+     border-radius: 0px 5px 5px 0px;
+     font-weight: 20px;
+     font-size: 18px;
+}
+
+/*definicion de clases y id*/
+#indetificador{
+        float: left;
+        width: 18px;
+        background-color: #ced4da;
+        border: 1px solid #ced4da;
+        border-radius: 5px 0px 0px 5px;
+        
+}
